@@ -1,0 +1,24 @@
+[
+  {
+    "outputFileName": "css/misitlife.com.min.css",
+    "inputFiles": [
+      "css/misitlife.com.css"
+    ],
+    "sourceMap": false,
+    "minify": {"enabled": true}
+  },
+  {
+    "outputFileName": "css/style.css",
+    "inputFiles": [
+      "css/style.css"
+    ],
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "css/pace-theme-cornerindicator.css",
+    "inputFiles": [
+      "css/pace-theme-cornerindicator.css"
+    ],
+    "sourceMap": false
+  }
+]

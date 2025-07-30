@@ -1,0 +1,710 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="es-ES"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="es-ES"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="es-ES"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="es-ES"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="es-ES">
+	<!--<![endif]-->
+	<head>
+		<title>SGPAbogados | Despacho de abogados</title>
+		<meta name="description" content="SGPAbogados | Despacho de abogados" />
+		<meta charset="UTF-8" />
+		
+		<script type="text/javascript">
+
+		</script>
+		
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		
+		
+		<link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="css/responsive.css" />
+		<!--<link rel="stylesheet" type="text/css" media="all" href="css/camera.css" />-->
+        <link rel="stylesheet" type="text/css" href="css/sgpabogados.com.css" />
+
+		<link rel='stylesheet' id='flexslider-css'  href='css/flexslider.css?ver=2.0' type='text/css' media='all' />
+		<link rel='stylesheet' id='owl-carousel-css'  href='css/owl.carousel.css?ver=1.24' type='text/css' media='all' />
+		<link rel='stylesheet' id='owl-theme-css'  href='css/owl.theme.css?ver=1.24' type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome-css'  href='http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ver=3.2.1' type='text/css' media='all' />
+		<link rel='stylesheet' id='cherry-plugin-css'  href='css/cherry-plugin.css?ver=1.1' type='text/css' media='all' />
+		<link rel='stylesheet' id='contact-form-7-css'  href='css/styles.css?ver=3.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='theme49007-css'  href='css/main-style.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='magnific-popup-css'  href='css/magnific-popup.css?ver=0.9.3' type='text/css' media='all' />
+		
+		<script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+		<script type='text/javascript' src='js/tm-stick-up.js?ver=1.0'></script>
+		
+		<script type='text/javascript' src='js/modernizr.js?ver=2.0.6'></script>										
+		<script type='text/javascript' src='js/jquery.easing.1.3.js?ver=1.3'></script>
+		
+		<script type='text/javascript' src='/js/bootstrap.min.js?ver=2.3.0'></script>
+		
+		
+		<script type='text/javascript' src='js/superfish.js'></script>
+		
+		<script type='text/javascript' src='js/jquery.elastislide.js'></script>
+			
+
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+			</div>
+		<![endif]-->
+
+		<!--[if gte IE 9]><!-->
+		<!--<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js" type="text/javascript"></script>-->
+		<script type="text/javascript">
+			//$(function(){
+			//	$('.sf-menu').mobileMenu({defaultText: "Navigate to..."});
+			//});
+		</script>
+		<!--<![endif]-->
+	
+		<script type="text/javascript">
+		
+			// Init navigation menu
+			$(function(){
+				// main navigation init
+				/*
+				$('ul.sf-menu').superfish({
+						delay: 1000, // the delay in milliseconds that the mouse can remain outside a sub-menu without it closing
+						animation: {
+							opacity: "show",
+							height: "show"
+						}, // used to animate the sub-menu open
+						speed: "normal", // animation speed 
+						autoArrows: false, // generation of arrow mark-up (for submenu)
+						disableHI: true // to disable hoverIntent detection
+					});
+				*/
+				//Zoom fix
+				//IPad/IPhone
+					var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
+						ua = navigator.userAgent,
+						gestureStart = function () {
+							viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0";
+						},
+						scaleFix = function () {
+							if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
+								viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+								document.addEventListener("gesturestart", gestureStart, false);
+							}
+						};
+					scaleFix();
+			});
+		
+		</script>
+		
+		<style type="text/css">
+			h1 { font: normal 55px/60px Roboto Slab, serif;  color:#FFFFFF; }
+			h2 { font: normal 48px/58px Roboto Slab, serif;  color:#FFFFFF; }
+			h3 { font: normal 18px/18px Roboto Slab, serif;  color:#FFFFFF; }
+			h4 { font: normal 14px/18px Roboto Slab, serif;  color:#FFFFFF; }
+			h5 { font: normal 14px/20px Roboto, sans-serif;  color:#FFFFFF; }
+			h6 { font: normal 12px/18px Roboto Slab, serif;  color:#FFFFFF; }
+			body { 
+                font-weight: normal;                
+			}
+			.logo_h__txt, .logo_link { font: normal 55px/55px Roboto Slab, serif;  color:#FFFFFF; }
+			.sf-menu > li > a { font: normal 14px/18px Roboto Slab, serif;  color:#FFFFFF; }
+			.nav.footer-nav a { font: normal 14px/18px Roboto Slab, serif;  color:#464646; }
+		</style>
+	</head>
+
+	<body class="home page page-id-203 page-template page-template-page-home-php" >
+		<div id="motopress-main" class="main-holder">
+			<!--Begin #motopress-main-->
+			<header class="motopress-wrapper header">
+				<div class="container">
+					<div class="row">
+						<div class="span12" >
+							<div class="nav-wrapper">
+								<div class="row">
+									<div class="span12" >
+										<!-- BEGIN MAIN NAVIGATION -->
+										<nav class="nav nav__primary clearfix">
+                                            <ul id="topnav" class="sf-menu">
+                                                <li id="menu-item-1807" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item">
+                                                    <a href="#">Inicio</a>
+                                                </li>
+                                                <li id="menu-item-1808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                                    <a href="#services">Servicios</a>
+                                                    <!--
+            <ul class="sub-menu">
+                <li id="menu-item-1815" class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="#">Services 2</a>
+                </li>
+                <li id="menu-item-1814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                    <a href="#">Services 3</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-1883" class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="#">Category 1</a>
+                        </li>
+                        <li id="menu-item-1882" class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="#">Category 2</a>
+                        </li>
+                        <li id="menu-item-1
+                " class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="#">Category 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="menu-item-1813" class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="#">Services 4</a>
+                </li>
+            </ul>
+            -->
+                                                </li>
+                                                <li id="menu-item-1810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                                    <a href="#team">Equipo</a>
+                                                    <!--<ul class="sub-menu">
+                <li id="menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="#">Testimonials</a>
+                </li>
+                <li id="menu-item-1805" class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="faqs.html">FAQs</a>
+                </li>
+            </ul>-->
+                                                </li>
+                                                <!--
+        <li id="menu-item-1809" class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="#">Practice</a>
+        </li>
+        <li id="menu-item-1806" class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="#">Blog</a>
+        </li>
+        -->
+                                                <li id="menu-item-1804" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="#contact">Contacta</a>
+                                                </li>
+                                            </ul>
+										</nav>
+										<!-- END MAIN NAVIGATION -->
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span12">
+									<!-- BEGIN LOGO -->
+									<div class="logo pull-left">
+										<a href="#" class="logo_h logo_h__img">
+											<img src="images/logos/logo_white_324x128.png" alt="SGPAbogados" title="SGP Abogados">
+										</a>
+
+									</div>
+									<!-- END LOGO -->
+								</div>
+							</div>
+							
+                            <section id="services" class="services">
+                                <div class="row">
+                                    <div class="span12">
+                                        <div class="row">
+                                            <div class="span4">
+                                                <div class="flip-container banner-wrap color-1" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Children’s Justice Center">
+                                                                    <img src="images/tiles/01_familia_370x344.jpg" title="Familia y Herencias" alt="Familia y Herencias" />
+                                                                </a>
+                                                            </figure>
+                                                            <div class="desc">
+                                                                <h5>Familia y Herencias</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="back">
+                                                            <div class="desc">
+                                                                <h5>Familia y Herencias</h5>
+                                                                <p>Los procesos de familia son siempre muy peculiares. El abogado de familia conoce estas peculiaridades y por ello asesora al cliente desde que el problema surge.</p>
+                                                                <div class="link-align banner-btn">
+                                                                    <a href="#contact" title="Consúltanos" class="btn btn-link" target="_self">consúltanos</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .banner-wrap (end) -->
+                                                <div class="flip-container banner-wrap color-2" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Propiedad horizontal">
+                                                                    <img src="images/tiles/02_propiedadHorizontal_370x344.png" title="Propiedad horizontal" alt="Propiedad horizontal" />
+                                                                </a>
+                                                            </figure>
+                                                            <div class="desc">
+                                                                <h5>Propiedad<br />horizontal</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="back">
+                                                            <div class="desc">
+                                                                <h5>Propiedad <br />horizontal</h5>
+                                                                <p>Vivir en una comunidad de propietario puede resultar algo complicado y complejo. Asesórese con nosotros y deposite sus dudas en nuestras manos en lo referente a su propiedad. </p>
+                                                                <div class="link-align banner-btn">
+                                                                    <a href="#contact" title="Consúltanos" class="btn btn-link" target="_self">consúltanos</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .banner-wrap (end) -->
+                                            </div>
+
+                                            <div class="span4">
+                                                <div class="custom-service-box color-1">
+                                                    <span class="before"></span>
+                                                    <a class="icon" href="#" title="LEGISLACIÓN MERCANTIL" target="_self">
+                                                        <span class="icon-img">
+                                                            <img src="css/images/iconSweets/icon1.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                    <span class="link">LEGISLACIÓN<br />MERCANTIL</span>
+                                                    <span class="after"></span>
+                                                </div>
+                                                <div class="custom-service-box color-2">
+                                                    <span class="before"></span>
+                                                    <a class="icon" href="#" title="DEFENSA CIVIL" target="_self">
+                                                        <span class="icon-img">
+                                                            <img src="css/images/iconSweets/icon2.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                    <span class="link">DEFENSA<br />CIVIL</span>
+                                                    <span class="after"></span>
+                                                </div>
+                                                <div class="custom-service-box color-3">
+                                                    <span class="before"></span>
+                                                    <a class="icon" href="#" title="TRÁMITES TRIBUTARIOS" target="_self">
+                                                        <span class="icon-img">
+                                                            <img src="css/images/iconSweets/icon3.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                    <span class="link">TRÁMITES<br />TRIBUTARIOS</span>
+                                                    <span class="after"></span>
+                                                </div>
+                                                <div class="custom-service-box color-4">
+                                                    <span class="before"></span>
+                                                    <a class="icon" href="#" title="CLÁSULAS SUELO" target="_self">
+                                                        <span class="icon-img">
+                                                            <img src="css/images/iconSweets/icon4.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                    <span class="link">CLÁSULAS<br />SUELO</span>
+                                                    <span class="after"></span>
+                                                </div>
+                                                <div class="spacer"></div>
+                                                <!-- .spacer (end) -->
+                                                <div class="flip-container banner-wrap color-3" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Accidentes de Tráfico">
+                                                                    <img src="images/tiles/03_accidentesTrafico_370x344.png" title="Accidentes de Tráfico" alt="Accidentes de Tráfico" />
+                                                                </a>
+                                                            </figure>
+                                                            <div class="desc">
+                                                                <h5>Accidentes<br />de tráfico</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="back">
+                                                            <div class="desc">
+                                                                <h5>Accidentes<br />de Tráfico</h5>
+                                                                <p>Nuestro objetivo es asistir a las víctimas de accidentes para que pueda obtener siempre una indemnización económica y justa. </p>
+                                                                <div class="link-align banner-btn">
+                                                                    <a href="#contact" title="Consúltanos" class="btn btn-link" target="_self">consúltanos</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .banner-wrap (end) -->
+                                            </div>
+
+
+
+                                            <div class="span4">
+                                                <div class="flip-container banner-wrap color-2" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Medical Negligence">
+                                                                    <img src="images/tiles/04_propiedadIntelectual_370x344.png" title="Propiedad Intelectual e Industrial" alt="Propiedad Intelectual e Industrial" />
+                                                                </a>
+                                                            </figure>
+                                                            <div class="desc">
+                                                                <h5>Propiedad Intelectual <br />e Industrial</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="back">
+                                                            <div class="desc">
+                                                                <h5>Propiedad Intelectual <br />e Industrial</h5>
+                                                                <p>Todas las actividades que se denominan artísticas o industriales, como la comercialización, explotación o la creación de una obra o proyecto necesitan un asesoramiento legal. </p>
+                                                                <div class="link-align banner-btn">
+                                                                    <a href="#contact" title="Consúltanos" class="btn btn-link" target="_self">consúltanos</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .banner-wrap (end) -->
+                                                <div class="flip-container banner-wrap color-1" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Business Licensing">
+                                                                    <img src="images/tiles/05_laboralSocial_370x344.png" title="Social y Laboral" alt="Social y Laboral" />
+                                                                </a>
+                                                            </figure>
+                                                            <div class="desc">
+                                                                <h5>Social <br />y Laboral</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="back">
+                                                            <div class="desc">
+                                                                <h5>Social <br />y Laboral</h5>
+                                                                <p>Gestionar trámites con la administración y la empresa siempre es algo tedioso y complicado. Nosotros lo hacemos por ti. </p>
+                                                                <div class="link-align banner-btn">
+                                                                    <a href="#contact" title="Consúltanos" class="btn btn-link" target="_self">consúltanos</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .banner-wrap (end) -->
+                                            </div>
+                                        </div>
+                                        <!-- .row (end) -->
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                        
+					</div>
+				</div>
+			</header>
+			<div class="motopress-wrapper content-holder clearfix">
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<div class="row">
+								<div class="span12">
+									<div class="slider_off">
+										<!--slider off-->
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span12">
+									<div id="post-203" class="post-203 page type-page status-publish hentry page">
+										<div class="support-box">
+											<div class="row">
+												<span class="title span3">pide una cita,<br />te ayudaremos</span>
+												<span class="phone span4">
+													<span class="phone-title">Llámanos:</span>
+													<span class="phone-num">981 942 248</span>
+												</span>
+												<span class="span2">
+													<span class="operation-time">Lunes-Viernes<br />de 9:00 am<br />a 18:00 pm</span>
+												</span><a href="mailto:contacto@sgpabogados.com" class="link span3">
+													<span class="inner">
+														<strong>24/7</strong>
+														<small>por email</small>
+													</span>
+												</a>
+											</div>
+										</div>
+                                        
+									</div>
+									<!--#post-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+            <section id="team" class="content-holder ">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <h1 style="text-align: center;">Nuestro equipo</h1>
+                            <div class="row">
+                                <div class="span12">
+                                    <p class="texto_p_1">
+                                        Un bufete que nace con la idea de prestar ayuda y servicios a las empresas y particulares.
+                                        Está compuesto por personas con gran experiencia y pasión por el derecho, dedicadas a proteger los intereses de cada uno  de nuestros clientes.
+                                        SGP Abogados, permite asignar equipos de trabajo a cada cliente, para poder proporcionar a cada persona o empresa el mejor asesoramiento y resolución de todas sus necesidades jurídicas.
+                                        Contamos para ello con la colaboración de profesionales de otros ámbitos (Economistas, Arquitectos, Contables, Gestores, Peritos, Tasadores de Arte, Especialistas en las nuevas tecnologías…..) para poder ofrecer un asesoramiento más especializado a nuestros clientes.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- .row (end) -->
+                        </div>
+                    </div>
+                    <!-- .row (end) -->
+                    <div class="row">
+                        <div class="span6 offset3">
+                            <div class="carousel-wrap team">
+                                <div id="carousel-5871687d08604" class="es-carousel-wrapper">
+                                    <div class="es-carousel">
+                                        <ul class="es-carousel_list unstyled clearfix">
+
+                                            <li class="es-carousel_li format-standart clearfix">
+                                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Luisa Bernal">
+                                                                    <img src="images/Team/luisabernal-170x170.jpg" alt="Luisa Bernal" />
+                                                                </a>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="back">
+                                                            <a href="#" title="Luisa Bernal">
+                                                                <span class="team-info">
+                                                                    <span class="inner">Luisa Bernal<br />(Abogada)</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="desc" />
+                                            </li>
+                                            <li class="es-carousel_li format-standart clearfix">
+                                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Stella Gonzalo">
+                                                                    <img src="images/Team/stellagonzalo-170x170.jpg" alt="Stella Gonzalo" />
+                                                                </a>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="back">
+                                                            <a href="#" title="Stella Gonzalo">
+                                                                <span class="team-info">
+                                                                    <span class="inner">Stella Gonzalo<br />(Abogada)</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="desc" />
+                                            </li>
+                                            <li class="es-carousel_li format-standart clearfix">
+                                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                                    <div class="flipper">
+                                                        <div class="front">
+                                                            <figure class="featured-thumbnail">
+                                                                <a href="#" title="Visi Lopez">
+                                                                    <img src="images/Team/visilopez-170x170.jpg" alt="Visi Lopez" />
+                                                                </a>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="back">
+                                                            <a href="#" title="Visi Lopez">
+                                                                <span class="team-info">
+                                                                    <span class="inner">Visi Lopez<br />(Abogada)</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="desc" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <script>
+                                                            $(document).ready(function () {
+
+                                                                    $("#carousel-5871687d08604").elastislide({
+                                                                        imageW  : 170,
+                                                                        minItems: 1,
+                                                                        speed   : 600,
+                                                                        easing  : "easeOutQuart",
+                                                                        margin  : 30,
+                                                                        border  : 0
+                                                                    });
+
+                                                            })</script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .row (end) -->
+                    <div class="clear" />
+                    <!--.pagination-->
+                </div>
+            </section>
+
+            <section id="contact" class="content-holder " >
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <h1 style="text-align: center;">Contacta</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="span4">
+                            <h5>Dónde estamos:</h5>
+                            <p class="texto_p_1">
+                                Siempre cerca del cliente, profundamente comprometidos con él, estrechamente vinculados con sus problemas jurídicos, con vocación de anticipación para evitar conflictos, y con honorarios ajustados a sus necesidades.
+                            </p>
+                            <h5>Pide cita:</h5>
+                            <address class="texto_p_2" >
+                                <strong>
+                                    SGPAbogados<br/>
+                                    Rua Pardiñeiros 3, Portal II - 3°C<br />
+                                    15895 O Milladoiro, A Coruña
+                                </strong><br/>
+                                Teléfono: 981 94 22 48 <br/>                                
+                                E-mail: <a href="mailto:contacta@sgpabogados.com">contacta@sgpabogados.com</a><br/>
+                            </address>
+                        </div>
+                        <div class="span8">
+                            <div class="google-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.363465781084!2d-8.582017684528324!3d42.844057979157334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb347f1d885c05d5!2sSGP+Abogados!5e0!3m2!1ses-419!2sus!4v1485015063723" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="motopress-wrapper footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <!--
+                    <div class="row footer-widgets">
+                        <div class="span3" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-1">
+                            <div id="text-2" class="visible-all-devices widget-footer">
+                                <div class="textwidget">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Business Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Class Action Lawsuits</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Criminal Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Elder Abuse Cases</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Employment Law</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-2">
+                            <div id="text-3" class="visible-all-devices widget-footer">
+                                <div class="textwidget">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Family Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Immigration Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Insurance Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Intellectual Property</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Juvenile Law</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-3">
+                            <div id="text-4" class="visible-all-devices widget-footer">
+                                <div class="textwidget">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Malpractice Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Real Property Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Securities Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Social Security Law</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tenant Law</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-4">
+                            <div id="text-5" class="visible-all-devices widget-footer">
+                                <h4>newsletter:</h4>
+                                <div class="textwidget">
+                                    <form class="nsu-form" id="nsu-form-1" action="" method="post">
+                                        <p>
+                                            <label for="nsu-email-1"> </label>
+                                            <input class="nsu-field" id="nsu-email-1" type="text" name="" value="Enter your email here" onfocus="if(this.value == 'Enter your email here') this.value=''" />
+                                        </p><p>
+                                            <input type="submit" id="nsu-submit-1" class="nsu-submit" name="nsu_submit" value=" " />
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                            <div class="row">
+                                <div class="span12">
+
+                                    <div class="footer-logo">
+                                        <em >UN BUEN ASESORAMIENTO EVITA MUCHOS PROBLEMAS</em><br />
+                                        <img src="images/logos/footer-logo.png" alt="SGP Abogados" title="SGP Abogados" style="margin-top:20px;" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span12">
+                                    <div id="footer-text" class="footer-text">
+                                        &copy; 2017 <!--<a href="privacy-policy.html" title="Privacy Policy">Política de privacidad</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span12">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+			<!--End #motopress-main-->
+		</div>
+		<div id="back-top-wrapper" class="visible-desktop">
+			<p id="back-top">
+				<a href="#top">
+					<span/>
+				</a>
+			</p>
+		</div>
+
+		
+		
+
+	</body>
+	
+</html>

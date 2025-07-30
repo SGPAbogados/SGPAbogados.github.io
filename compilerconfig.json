@@ -1,0 +1,35 @@
+﻿[
+  {
+    "outputFile": "js/hoverIntent.js",
+    "inputFile": "js/hoverIntent.js",
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFile": "js/jquery.easing.1.3.js",
+    "inputFile": "js/jquery.easing.1.3.js",
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFile": "js/superfish.js",
+    "inputFile": "js/superfish.js",
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFile": "js/tm-stick-up.js",
+    "inputFile": "js/tm-stick-up.js",
+    "minify": {
+      "enabled": true
+    }
+  },  
+  //{
+  //  "outputFile": "css/style.css",
+  //  "inputFile": "css/style.less"
+  //},  
+  
+]

@@ -1,0 +1,22 @@
+.services {
+    padding-top:20px;
+}
+
+.team {
+    color:rgba(255,255,255,0.70);
+}
+.texto_p_1{
+    line-height:25px;
+    font-size:18px;
+    color:rgba(255,255,255,0.50);
+}
+.texto_p_2{
+    line-height:20px;
+    font-size:14px;
+    color:rgba(255,255,255,0.50);
+}
+
+#contact {
+    padding-top:30px;
+    padding-bottom:30px;
+}
